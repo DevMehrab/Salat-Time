@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body {
+  font-size: 15pt;
+  /* height: 100vh; */
+  text-align: center;
+	flex-wrap: wrap;
+  background-color: #f6f7f1;
+  font-family: 'Quicksand', sans-serif;
+
+}
+h1{
+	color:#db9487;
+  margin:0;
+  margin-bottom: 15px;
+}
+p{
+	font-weight:500;
+}
+.input{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  max-width: 400px;
+}
+input{
+	border: none;
+	background-color: white;
+	outline: none;
+	margin: 10px 0;
+	width:92%;
+	padding: 10px;
+	border-radius: 3px;
+}
+.con{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+.result{
+	width: 90%;
+	max-width: 400px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  color:#34a0a4 ;
+  width: 100%;
+}
+.options{
+	width: 90%;
+	max-width: 400px;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.options button{
+	border: none;
+	background-color: #34a0a4;
+	color:#f6f7f1;
+	flex-grow: 1;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 3px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+}
+button:hover{
+	background-color: #db9487;
+}
+button:focus{
+	background-color: #db9487;
+}
+.hadith{
+  width: 90%;
+  max-width: 400px;
+  background-color: #f6f7f1;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  font-size: 15px;
+  line-height: 1.6rem;
+}
+
+.ref{
+  color: #db9487;
+}
